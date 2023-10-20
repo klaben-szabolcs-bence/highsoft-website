@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/jpeg" href="../img/highsoftlogov2.2.png">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>HighSoft F3: SRS dokumentum</title>
+	<style>
+		@page {
+    		margin: 16px;
+		}
+
+		.left {
+    		text-align: left;
+		}
+
+		.right {
+    		text-align: right;
+		}
+
+		.f35 {
+			font-size: 35px;
+		}
+
+		.f29 {
+			font-size: 29px;
+		}
+
+		.f21 {
+			font-size: 21px;
+		}
+
+		.f19 {
+			font-size: 19px;
+		}
+
+		.f17 {
+			font-size: 17px;
+		}
+
+		.f16 {
+			font-size: 16px;
+		}
+
+		ul li {
+			list-style-type: disc !important;
+		}
+
+		ul {
+			padding-left: 2em !important;
+			list-style-type: disc !important;
+		}
+		
+	</style>
+</head>
+<body class="grey darken-4 grey-text text-lighten-1">
+	<div class="fixed-action-btn">
+		<a class="btn-floating btn-large red" href="#">
+		  <i class="large material-icons">arrow_upward</i>
+		</a>
+	</div>
+<div class= "container" style="padding-top: 1vw; font-family: 'Montserrat', sans-serif">
+<p style="margin-top: 42px;" class="f21 amber-text">Csoport neve:<font color="#bdbdbd"> HighSoft</font></p>
+
+<p class="f21 amber-text">Feladatsorszáma:<font color="#bdbdbd"> F3</font></p>
+
+<p class="f21 amber-text">Feladat címe:<font color="#bdbdbd"> SRS dokumentum</font></p>
+
+<p style="margin-top: 80px; font-weight: bold;" class="center f29">SRS dokumentum</p>
+
+<p style="margin-top: 80px;" class="center f21 amber-text">Gyakorlatvezető:</p>
+
+<p class="center f29" style="margin:30px" >SZŰCS MIKLÓS</p>
+
+<p style="margin:10px " class="left f21 amber-text">Csoporttagok:</p>
+
+<table class="centered" style="padding: 2em" >
+	
+	<tbody>
+    <tr>
+		<td>TAMÁS JANKA</td>
+		<td>GIE0EJ</td>
+		<td>TAMAS.JANKA95@GMAIL.COM</td>
+	</tr>
+	<tr>
+		<td>SZILÁGYI GÁBOR</td>
+		<td>S9NJK6</td>
+		<td>GABSZI12345@GMAIL.COM</td>
+	</tr>
+	<tr>
+		<td>JÓNIS BÁLINT</td>
+		<td>LN40BG</td>
+		<td>JONISBALINT@GMAIL.COM</td>
+	</tr>
+	<tr>
+		<td>DUDÁS DÁNIEL</td>
+		<td>VUXFKS</td>
+		<td>D.DANIEL910617@GMAIL.COM</td>
+	</tr>
+	<tr>
+		<td>KLÁBEN SZABOLCS BENCE</td>
+		<td>H46LPD</td>
+		<td>KLABEN.SZABOLCS@GMAIL.COM</td>
+	</tr>
+	
+	
+  </tbody>
+</table>
+
+<p style="margin: 48px" class=" right f21 amber-text">Beadás Dátuma:<br> <font color="#bdbdbd">2020. 10. 27.</font></p>
+
+<table class="centered f16" style="padding: 2em" >
+	<thead>
+		<tr class="amber-text">
+			<th>Dátum</th>
+			<th>Verzió</th>
+			<th>Leírás</th>
+			<th>Szerző(k)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>2020. 10. 27.</td>
+			<td>1.0</td>
+			<td>Első verzió</td>
+			<td>Mindenki</td>
+		</tr><tr>
+			<td>2020. 10. 27.</td>
+			<td>1.1</td>
+			<td>Címlap és sablon alkalmazása</td>
+			<td>Kláben Szabolcs Bence</td>
+		</tr>
+		
+	</tbody>
+</table>
+
+
+<p class="f21 amber-text" style="margin-top:40px">A megbeszélések időpontjai:</p>	
+<table class="f19 centered "> 
+	<tr >
+		<td>
+			<p class="amber-text">2020. 10. 16. 14:00</p>
+			<p >Jelen lévő személyek:</p>
+		</td>
+		<td >
+			<ul>
+				<li>Dudás Dániel</li>
+				<li>Kláben Szabolcs Bence</li>
+				<li>Szilágyi Gábor</li>
+                <li>Tamás Janka</li>
+                <li>Jónis Bálint</li>
+			</ul>
+		</td>	
+	</tr>
+</table>
+<h4 class="amber-text">Tartalomjegyzék</h4>
+<ol>
+<li><a class="cyan-text text-darken-3" href="#1">Bevezetés</a></li>
+<li><a class="cyan-text text-darken-3" href="#2">Áttekintés</a></li>
+<ol>
+<li><a class="cyan-text text-darken-3" href="#21">A termék környezete</a></li>
+<li><a class="cyan-text text-darken-3" href="#22">A legfontosabb megvalósítandó és esetlegesen távlati célok között megvalósuló funkciók felsorolásszerűen</a></li>
+<li><a class="cyan-text text-darken-3" href="#23">A leendő felhasználók jellemzői</li>
+<li><a class="cyan-text text-darken-3" href="#24">Korlátozások</li>
+<li><a class="cyan-text text-darken-3" href="#25">Feltételezések és függőségek</li>
+<li><a class="cyan-text text-darken-3" href="#26">A követelmények csoportosításának szempontjai</li>
+</ol>
+<li><a class="cyan-text text-darken-3" href="#3">A rendszer funkciói</a></li>
+<ol>
+<li><a class="cyan-text text-darken-3" href="#31">Bejelentkezési Use Case diagram</a></li>
+<li><a class="cyan-text text-darken-3" href="#32">Felhasználói Use Case diagram a játék elkezdéséig</a></li>
+<li><a class="cyan-text text-darken-3" href="#33">Játékmenet Use Case diagram</a></li>
+</ol>
+<li><a class="cyan-text text-darken-3" href="#4">Használhatóság</a></li>
+<ol>
+<li><a class="cyan-text text-darken-3" href="#41">A rendszer megismeréséhez - betanuláshoz - szükséges idő</a></li>
+<li><a class="cyan-text text-darken-3" href="#42">Egy felhasználó által végrehajtott tevékenység időbecslése</a></li>
+<li><a class="cyan-text text-darken-3" href="#43">Rendszertulajdonságok, melyek segítik a felhasználót a gyors betanulásban</a></li>
+<li><a class="cyan-text text-darken-3" href="#44">A rendszer betanulásával kapcsolatos egyéb lehetőségek</a></li>
+<li><a class="cyan-text text-darken-3" href="#45">A felhasználói felület</a></li>
+<li><a class="cyan-text text-darken-3" href="#46">A rendszerrel párhuzamosan használt alkalmazások</a></li>
+</ol>
+<li><a class="cyan-text text-darken-3" href="#5">Megbízhatóság</a></li>
+<li><a class="cyan-text text-darken-3" href="#6">Teljesítmény</a></li>
+<li><a class="cyan-text text-darken-3" href="#7">Teljesítmény</a></li>
+<li><a class="cyan-text text-darken-3" href="#8">Tervezési korlátozások</a></li>
+<ol>
+<li><a class="cyan-text text-darken-3" href="#81">Architektúra és felhasznált fejlesztési módszertan</a></li>
+<li><a class="cyan-text text-darken-3" href="#82">Programozási nyelvek, fejlesztőeszközök</a></li>
+</ol>
+<li><a class="cyan-text text-darken-3" href="#9">Online dokumentáció és Help rendszer</a></li>
+<li><a class="cyan-text text-darken-3" href="#10">Felhasznált kész komponensek</a></li>
+<li><a class="cyan-text text-darken-3" href="#11">Interfészek</a></li>
+<ol>
+<li><a class="cyan-text text-darken-3" href="#111">Felhasználói interfészek</a></li>
+<li><a class="cyan-text text-darken-3" href="#112">Hardware interfészek</a></li>
+<li><a class="cyan-text text-darken-3" href="#113">Kommunikációs interfészek</a></li>
+</ol>
+<li><a class="cyan-text text-darken-3" href="#12">Alkalmazott szabványok</a></li>
+<ol>
+<li><a class="cyan-text text-darken-3" href="#121">Kötelezően alkalmazandó szabványoka></li>
+<li><a class="cyan-text text-darken-3" href="#122">Választás alapján alkalmazott szabványok</a></li>
+</ol>
+<li><a class="cyan-text text-darken-3" href="#13">Mellékletek</a></li>
+</ol>
+
+
+
+<h4 class="amber-text" id=1>1. Bevezetés</h4>
+<p>A szoftver egy mobiljáték IOS és Android rendszerre, mely ötvözi a hagyományos RPG játékokat a társasági összejöveteleken gyakran előkerülő italozós játékokkal. Az applikáció egy csapatjáték, melyben minden játékos a saját eszközén használja az alkalmazást, a kijelzőn pedig mindannyian ugyanazt látják. A játék lényege, hogy a szereplőket egy történetbe helyezi, és a program (a „mesélő”) narrálja a történéseket, döntéshelyzeteket állít a játékosok elé, feladványokat ad, illetve harci szituációkba helyezi őket. A játékosok az általuk választott különböző karakterekkel vesznek részt a játékban, melyeknek energiaszintjük csökken a rossz megoldások és a harci sebzések által. Attól függően, hogy a csapat hogyan teljesítette az akadályokat, minden kihívás után adott az italozás lehetősége jutalom vagy gyógyulás formájában.</p>
+<h4 class="amber-text" id=2>2. Áttekintés</h4>
+<h5 class="amber-text" id=21>2.1 A termék környezete:</h5>
+<p>Az elkészítendő alkalmazás minimális platform igénye:</p>
+<ul>
+<li>Android 7.1 vagy iOS 10.0</li>
+<li>RAM: 500 MB</li>
+<li>Belső tárhely: 500 MB</li>					
+</ul>
+<p>A memóriaigény változhat és hosszú távon az operációs rendszer is változhat.</p>
+<p>Az alkalmazás egyértelműen többfelhasználós használatra lesz tervezve, ami magába foglalja az interneten keresztül való használatot (online matchmaking). Hosszú távon a bluetooth-on való matchmaking is implementálva lesz.</p>
+<p>A program futtatásához elég a megfelelő operációs rendszer megléte.</p>
+<h5 class="amber-text" id=22>2.2 A legfontosabb megvalósítandó és esetlegesen távlati célok között megvalósuló funkciók felsorolásszerűen:</h5>
+<ul>
+<li>Barátlista</li>
+<li>Tárgy, fegyver, páncél és képességek bővítése</li>
+<li>Új fajok és classok bevezetése</li>
+<li>Különböző nyelvek bevezetése</li>
+</ul>
+<h5 class="amber-text" id=23>2.3 A leendő felhasználók jellemzői:</h5>
+<p>Az alkalmazás írásánál figyelembe vesszük a felhasználók közti lehetséges nagy korkülönbséget is. Ezt figyelembe véve a felhasználói környezet a lehető legegyszerűbb és egyértelműbb lesz, hogy az esetlegesen nem nagy háttér tudással rendelkező öregebb korosztály is könnyen tudja használni. Ennek elsajátítása érdekében egy egyszerű szöveges és képekkel ellátott bemutató(tutorial) lesz elérhető bármikor az alkalmazáson belül és a program honlapján is.</p>
+<h5 class="amber-text" id=24>2.4 Korlátozások</h5>
+<p>Mivel az alkalmazás egy fontos része az alkoholfogyasztás, így azt csak az használhatja aki legálisan fogyaszthat alkoholt.</p>
+<p>Érzékeny információkat is tárolunk ezért szükséges a megfelelő titkosítás is ami behatárolhatja a tárolási módokat.</p>
+<p>A program fő része maga a játékmenet és a felfedezés, véletlenszerűség így az ezekhez tartozó adatok (tárgyak, fegyverek, események, ezek előfordulása stb.) nem lesznek láthatók a felhasználó számára.</p>
+<h5 class="amber-text" id=25>2.5 Feltételezések és függőségek:</h5>
+<p>Platform Igény: Android 7.1 vagy iOS 10.0</p>
+<p>A fenti operációs rendszer követelményei és azokhoz tartozó általános hardver már magába foglalja a minimum rendszerkövetelményt is.</p>
+<p>Feltételezzük továbbá azt is hogy a felhasználó egyszerre nem futtat annyi programot, hogy a memóriája teljesen megteljen és tudja alapszinten használni telefonját és a hozzátartozó app store-t.</p>
+<h5 class="amber-text" id=26>2.6 A követelmények csoportosításának szempontjai</h5>
+<p>Nincs információ</p>
+<h4 class="amber-text" id=3>3. A rendszer funkciói</h4>
+<p>A funkcionális követelményeket Use Case (használati eset) diagramok segítségével mutatjuk be.</p>
+<h5 class="amber-text" id=31>3.1 Bejelentkezési Use Case diagram:</h5>
+<img class="responsive-img" src="images/srs-1.png" alt="Bejelentkezési Use Case diagram" title="Bejelentkezési Use Case diagram">
+<p><b class="amber-text">A diagramon lévő aktor:</b></p>
+<ul> 
+<li><b class="amber-text">Felhasználó:</b> Az alkalmazás egy olyan használója, aki még nem jelentkezett be.</li>
+</ul>
+<p><b class="amber-text">A diagramon látható User Case-k:</b></p>
+<ul> 
+<li><b class="amber-text">Regisztráció:</b> A játék használatához szükséges egy email fiók csatolása. Ennek oka, hogy a játék tartalmaz alkohol fogyasztással kapcsolatos elemeket, ezért csak olyan felhasználói lehetnek, akik már fogyaszthatnak alkoholt.</li>
+<li><b class="amber-text">Bejelentkezés:</b> Amennyiben már van csatolva email fiók, a felhasználó ki tudja választani, ezután a program a főmenübe irányítja.</li>
+</ul>
+<p><b class="amber-text">Prekondíciók:</b></p>			
+<ul>
+<li>Szükséges egy minimális rendszerkövetelményeknek megfelelő készülék, egy email fiók, amelynek tulajdonosa törvényesen fogyaszthat alkoholt és folyamatos internetkapcsolat.</li>
+</ul>
+<p><b class="amber-text">Post kondíciók:</b></p>
+<ul>
+<li>Regisztrációt követően kiválasztható lesz a regisztrált email cím, bejelentkezés után pedig elérhetővé válnak a játék további funkciói.</li>
+</ul>
+<p><b class="amber-text">Main Flow:</b></p>
+<ul>
+<li>A korlátozásoknak eleget tevő email cím sikeres regisztrálása és kiválasztása a létrejövő listából.</li>
+</ul>
+<p><b class="amber-text">Alternate Flows:</b></p>
+<ul>
+<li>Az email cím tulajdonos életkora nem éri el a törvényes alkoholfogyasztás korhatárát</li>
+<li>Az alkalmazás futtatásakor nincs internetkapcsolat. </li>
+<li>Előfordulhat, hogy a készüléken nem áll rendelkezésre elegendő memória, ilyen esetben a program leáll vagy el sem indul. </li>
+</ul>
+<p>Minden esetben hibaüzenetet küld a program a felhasználónak a probléma okáról.</p>
+<p><b class="amber-text">Exception Flows:</b></p>
+<ul>
+<li>A telefon valamely hardware elemének meghibásodása</li>
+</ul>
+<h5 class="amber-text" id=32>3.2 Felhasználói Use Case diagram a játék elkezdéséig:</h5>
+<img class="responsive-img" src="images/srs-2.png" alt="Felhasználói Use Case diagram a játék elkezdéséig" title="Felhasználói Use Case diagram a játék elkezdéséig">
+<p><b>A diagramon lévő aktor:</b></p>
+<ul> 
+<li><b>Játékos:</b> Az alkalmazás egy olyan használója, aki sikeresen bejelentkezett, ezáltal jogosult a játék további funkcióira.</li>
+</ul>
+<p><b class="amber-text">A diagramon látható User Case-k:</b></p>
+<ul> 
+<li><b class="amber-text">Új játék elkezdése:</b> A játék elindulása előtt beállításokat kell végezni emellett vásárlásra is van lehetőség. A játékos létrehozhat egy új szobát vagy csatlakozhat egy meglévőhöz.</li>
+<ul>
+<li><b class="amber-text">Új tartalom vásárlása:</b> A játék további kiegészítéseit (skin-ek, karakterek, pályák és történetek) itt lehet megvásárolni. A karakter beállításoknál is van erre lehetőségünk.</li>
+<p></p>
+<li><b class="amber-text">Szoba létrehozása:</b> Egy új hálózati szoba létrehozása, amelybe más felhasználók csatlakozhatnak, az a játékos amelyik a szobát létrehozta, módosíthatja a pályát, csapatlétszámot, belépési jelszót állíthat, a belépett játékosokat (elfogad vagy kidob) és ő indítja el az adott játékot is.</li>
+<ul>
+<li><b class="amber-text">Játékosok elfogadása/kidobása:</b> Amennyiben olyan játékos kerül a szobába, akit nem szeretne a szoba létrehozója a csapatban, eltávolíthatja, a többieket pedig elfogadhatja.</li>
+<li><b class="amber-text">Pálya kiválasztása:</b> A játékos a birtokában lévő pályák közül kiválaszthatja melyikkel szeretnének játszani.</li>
+<li><b class="amber-text">Csapatlétszám beállítása:</b> 2-6 főig lehetőség van a csapatlétszám módosítására, ennyi játékos léphet be az adott szobába és játékba.</li>
+<li><b class="amber-text">Belépési jelszó beállítása:</b> Lehetőség van jelszó beállítására, ezáltal a publikus szoba privát lesz és a kiválasztott jelszó megadása nélkül nem tud más játékos belépni.</li>
+<li><b class="amber-text">Játék indítása:</b> Amennyiben a csapatlétszámnak megfelelő játékos csatlakozott a szobához, a létrehozó játékos elindíthatja a játékot.</li>
+</ul>
+<p></p>
+<li><b class="amber-text">Játék keresése:</b> Azok a játékosok, akik nem készítenek új szobát, a meglévők közül kereshetnek számukra megfelelőt.</li>
+<ul>
+<li><b class="amber-text">Szoba kiválasztása:</b> A sikeres keresést követően kiválaszthatja az adott szobát és amennyiben nincs jelszó beállítva, a program belépteti.</li>
+<li><b class="amber-text">Belépési jelszó megadása:</b> Egy szoba lehet jelszóval védett, melyet a szoba kiválasztása után kell megadni.</li>
+</ul>
+</ul>
+<p></p>
+<li><b class="amber-text">Hősközpont megnyitása:</b> A játékos karakterének beállításait módosíthatja a felhasználó.</li>
+<ul>
+<li><b class="amber-text">Karakter kiválasztása:</b> A játékos a birtokában lévő karakterek közül kiválaszthatja a számára legmegfelelőbben a játékhoz.</li>
+<li><b class="amber-text">Új tartalom vásárlása:</b> A játék további kiegészítéseit (skin-ek, karakterek, pályák és történetek) itt lehet megvásárolni. A játék elkezdésekor is van erre lehetőségünk.</li>
+</ul>
+<p></p>
+<li><b class="amber-text">Beállítások megnyitása:</b> Az alkalmazással kapcsolatos általános beállításokat módosíthatja a felhasználó</li>
+<ul>
+<li><b class="amber-text">Hang/Rezgés módosítása:</b> A hang erejét és a rezgőmód ki/be kapcsolását teheti meg a játékos.</li>
+<li><b class="amber-text">Adományozás:</b> Egy legördülő listában felsorolt alapítványok közül kiválaszthat a felhasználó egyet, akinek a hirdetésekből és a játékon belüli vásárlásokból befolyt összeg bizonyos százalékát eljuttatja a cég. A lista mellett a felhasználó láthatja, hogy mennyi az általa befolyt aktuális támogatási összeg a kiválasztott alapítványnak.</li>
+<li><b class="amber-text">Súgó megnyitása:</b> A játékmenettel kapcsolatos segítségeket érhetőek el ezzel a funkcióval.</li>
+<li><b class="amber-text">Fiók váltása:</b> Az aktuális aktív fiókból való kilépést és egy másik fiókba átlépést teheti meg a felhasználó.</li>
+</ul>
+<p></p>
+<li><b class="amber-text">Kilépés a játékból:</b> Ezzel a funkcióval ki lehet lépni az alkalmazásból.</li>
+</ul>
+<p><b class="amber-text">Prekondíciók:</b></p>
+<ul>
+<li>sikeres bejelentkezés</li>
+<li>folyamatos internetkapcsolat</li>
+<li>a játék elindítása előtt új szoba létrehozása vagy egy létezőbe való belépés</li>
+<li>a privát szobák eléréséhez a jelszó tudása</li>
+<li>a fizetéshez szükséges egy érvényes bank-hitelkártya a vásárláshoz elegendő keretösszeggel</li>
+</ul>
+<p><b class="amber-text">Post kondíciók:</b></p>
+<ul>
+<li>Az új szoba, létrehozását követően a játék keresésén belül láthatóvá válik a többi játékos számára és képesek lesznek a belépésre az adott csapatlépszámig, amennyiben a szoba publikus vagy a birtokukban van a szükséges jelszó</li>
+<li>A játék elindítását követően a kiválasztott csapattal elindul a történet</li>
+<li>Amennyiben egy játékost eltávolítanak egy szobából, vissza kerül a játék keresése funkcióra</li>
+<li>Vásárlást követően a kiválasztott termék elérhetővé válik a játékos számára</li>
+</ul>
+<p><b class="amber-text">Main Flow:</b></p>
+<p>A felhasználó képes vásárolni, létrehozni játékszobát, belépni egy meglévő szobába, általános, karakter és szoba beállításokat végezni és akár kilépni a programból. Vásárláskor a fizetést követően az adott számláról az összeg levonásra kerül, a vásárlónak pedig elérhetővé válik a kívánt termék.</p>
+<p><b class="amber-text">Alternate Flows:</b></p>
+<ul>
+<li>privát szobába való belépéskor hibás jelszót ad meg a felhasználó</li>
+<li>a kiválasztott szoba megtelt</li>
+<li>a vásárlás sikertelen volt, a kártyán nincs elegendő összeg vagy hibás kártya adatok, esetleg megszakad a kapcsolat fizetés közben</li>
+</ul>
+<p>Minden esetben hibaüzenetet küld a program a felhasználónak a probléma okáról.</p>
+<p><b class="amber-text">Exception Flows:</b></p>
+<ul>
+<li>A telefon valamely hardver elemének meghibásodása.</li>
+<li>Szoba létrehozása közben a létrehozó játékos internetkapcsolata megszakad, a többi belépett játékos visszakerül a játék keresés funkcióhoz a szoba törlődik a szoba tulajdonosa pedig visszakerül a bejelentkezési oldalra. Amennyiben egy a szobába belépett játékosnál lép fel kapcsolati hiba, akkor feloldódik a helye és visszakerül a bejelentkezési oldalra. A program ilyenkor hibaüzenetben tájékoztatja a felhasználót a hibáról.</li>
+</ul>
+<h5 class="amber-text" id=33>3.3 Játékmenet Use Case diagram:</h5>
+<img class="responsive-img" src="images/srs-3.png" alt="Játékmenet Use Case diagram" title="Játékmenet Use Case diagram">
+<p><b class="amber-text">A diagramon lévő aktor:</b></p>
+<ul> 
+<li><b class="amber-text">A Játékos csapat: </b> Az alkalmazás azon felhasználói, akik a játék elindítása előtt egy virtuális szobába voltak belépve ezáltal hálózatban vannak egymással. A készülékeik a játékhoz szinkronizálódnak és egyformán.</li>
+</ul>
+<p><b class="amber-text">A diagramon látható User Case-k:</b></p>
+<ul> 
+<li><b class="amber-text">Játék:</b> Események sorozata, egy esemény egy választásból és egy élet visszatöltésből áll. Az élet visszatöltés közben egy reklámmal kapcsolatos funkció is lefut. Az eseménysorozatnak van kezdete és vége. Minden esemény egy darabja a játék történetének. Egy új játék kezdetekor egy-két eseményt kivéve az események sorrendje véletlenszerűen alakul.   </li>
+<ul>
+<li><b class="amber-text">Választás:</b> Egy esemény azon funkciója, ahol a játékosok elolvashatják a történet egy részletét és egyénileg döntéseket hoznak a program által felajánlott lehetőségek közül. Ismétlődik a feladat teljesítéséig.</li>
+<ul>
+<li><b class="amber-text">Gyógyulás és jutalom:</b> A választást követően a program kiértékel egy eredményt, ami alapján sérüléseket szenvednek a karakterek. Ezeket a sérüléseket ital fogyasztásával gyógyíthatjuk meg, amit nem tud ellenőrizni a program, a játékosok becsületességére van bízva ez a rész. Emellett a játék jutalmakat is adhat a felhasználóknak. Az ital elfogyasztását és a jutalom elfogadását követően, a játékos egy gomb lenyomásával jelzi a folytatást.</li>
+<li><b class="amber-text">Hirdetés:</b> A Gyógyulás és jutalom funkció közben megjelenik a kijelzőn egy kis ablak, amely megkéri a játékost, hogy nézzen meg egy hirdetéest. A megtekintéshez csak rá kell kattintania a felugró ablak bármely részére, amennyiben nem teszi, az ablak automatikusan eltűnik pár másodperc múlva.</li>
+<li><b class="amber-text">Továbblépés:</b>A következő feladat elindításának funkciója.</li>
+</ul>
+</ul>
+<li><b class="amber-text">Pause menü megnyitása:</b> A játék folyamatában bármikor használható funkció, ennek használatával további funkciók lesznek elérhetőek.</li>
+<ul>
+<li><b class="amber-text">Játék folytatása:</b> Visszalépés a játékba, pause menü bezárása.</li>
+<li><b class="amber-text">Beállítások megnyitása:</b> A főmenü beállításaiban található általános beállításokat módosíthatja a felhasználó játék közben is.</li>
+<li><b class="amber-text">Súgó megnyitása:</b> A játékmenettel kapcsolatos segítségeket érhetőek el ezzel a funkcióval.</li>
+<li><b class="amber-text">Kilépés a főmenübe:</b> Játék befejezése, visszalépés a főmenübe.</li>
+</ul>
+</ul>
+<p><b class="amber-text">Prekondíciók:</b></p>
+<ul>
+<li>sikeres játék elindítás</li>
+<li>folyamatos internetkapcsolat</li>
+<li>elegendő ital</li>
+</ul>
+<p><b class="amber-text">Post kondíciók:</b></p>
+<ul>
+<li>Egy választás és élettöltés ciklus után a játék végéig továbbiak következnek.</li>
+<li>Az utolsó választást követően a játék gratulál és visszairányít a főmenübe.</li>
+</ul>
+<p><b class="amber-text">Main Flow:</b></p>
+<p>A játék folyamán minden játékos döntéseket hoz, visszatölti az életét, szabadon megtekinti a reklámokat, általános beállításokat módosít, súgó segítségével megtanulja a játék elemeit, kilép a játékból vagy eljut a játék végéig.</p>
+<p><b class="amber-text">Alternate Flows:</b></p>
+<ul>
+<li>A játék nem halad tovább amíg minden játékos rá nem kattint valamelyik felajánlott választási lehetőségre</li>
+<li>Előfordulhat olyan esemény, ahol időzítő van beállítva és a játékosoknak az idő lejárta előtt kell választ adniuk, a játék hibás válasznak minősíti azt, ha nem ad valaki választ időben.</li>
+<li>Ha kilép valaki a játékból a többi játékos jelezheti, hogy valami probléma lépett fel, ekkor a játék megáll és van lehetősége újra belépnie, amennyiben nem jelzik, a játék folytatódik kevesebb játékossal.</li>
+</ul>
+<p><b class="amber-text">Exception Flows:</b></p>
+<ul>
+<li>Ha minden készüléken megszűnik a kapcsolat, akkor a játékot elölről kell kezdeni.</li>
+</ul>
+
+<h4 class="amber-text" id=4>4. Használhatóság</h4>
+<h5 class="amber-text" id=41>4.1 A rendszer megismeréséhez - betanuláshoz - szükséges idő</h5>
+<ul>
+<li>A program természetéből adódóan a felhasználókat nem lehet csoportosítani jártassági szempontból, így feltehetőleg minden felhasználónak kis eltérésekkel, de ugyanannyi idő elsajátítani a programot.</li>
+<li>A telepítés Android esetében a Play áruházon keresztül történik, iOS esetén pedig az Apple store-on keresztül. Ezeket feltételezhetően minden felhasználó tudja használni.</li>
+<li>A program megnyitása nem tér el más appoktól így ez nem okozhat problémát.</li>
+<li>A regisztrációs rész úgy lesz kidolgozva hogy mindenki könnyen megérthesse, csak minimális adat szükséges.</li>
+<li>A bemutató (tutorial) elvégzése egyénenként változó lehet, de pár perc alatt elvégezhető.</li>
+<li>Megismeréshez szükséges becsült idő: kb. 5-7 perc.</li>
+</ul>
+
+<h5 class="amber-text" id=42>4.2 Egy felhasználó által végrehajtott tevékenység időbecslése</h5>
+<p>A programunknak nincsen összehasonlítási alapja.</p>
+
+<h5 class="amber-text" id=43>4.3 Rendszertulajdonságok, melyek segítik a felhasználót a gyors betanulásban </h5>
+<ul>
+<li>A program egyszerű kezelhetősége, egyértelműsége</li>
+<li>Részletes bemutató (tutorial)</li>
+<li>Célközönség tapasztalatai</li>
+</ul>
+<h5 class="amber-text" id=44>4.4 A rendszer betanulásával kapcsolatos egyéb lehetőségek</h5>
+<p>A 4.1. és 4.3. pontban leírtakon kívül nem szükséges másféle bemutatót készíteni/használni.</p>
+
+<h5 class="amber-text" id=45>4.5 A felhasználói felület</h5>
+<p>A felhasználói felület nagyban fog hasonlítani a már megszokott hasonló alkalmazásokhoz. A platform és a program tulajdonságai miatt egyszerre nem lesz sok információ megjelenítve, ezek közt könnyű lesz a navigálás.</p>
+
+<h5 class="amber-text" id=46>4.6 A rendszerrel párhuzamosan használt alkalmazások</h5>
+<p>A platformból kiindulva nem lesz lehetőség párhuzamosan más programot használni, de a háttérben futó alkalmazásokat a mi programunk nem befolyásolja. Ez ellenkező esetben is igaz (memória igénytől eltekintve).</p>
+
+<h4 class="amber-text" id=5>5. Megbízhatóság</h4>
+<p>A rendszerrel szemben támasztott megbízhatósági követelmények:</p>
+<ul>
+<li><b class="amber-text">Rendelkezésre állás (%-ban), karbantartási idő szempontjából:</b> 100%. Karbantartást nem igényel a szoftver, hibajavító és tartalombővítő frissítések várhatóak. Egyéb harmadik-féltől származó hibák előfordulhatnak (például: Google szerverei nem érhetőek el).</li>
+<li><b class="amber-text">MTBF: (Mean Time Between Failures): hibák között eltelt átlagos idő szempontjából:</b> a szoftverben felmerülő hibák maximum egyszerűbb elírások, kisebb programozási hibák, amik minden szoftverben előfordulnak. Ezeket nem lehet megjósolni, csak megelőzni minőségbiztosítással.</li>
+<li><b class="amber-text">MTTR: (Man Time To Repair): egy hiba utáni javítás átlagos ideje szempontjából: </b>a hiba javításának ideje a hiba mértékétől és rajta dolgozó emberek számától függ.</li>
+<li><b class="amber-text">A rendszer eredményeinek pontossága szempontjából:</b> a lehető legjobb szórakoztatást adja.</li>
+</ul>
+
+<h4 class="amber-text" id=6>6. Teljesítmény</h4>
+<ul>
+<li>CPU: Quad Core 1.2 GHz</li>
+<li>RAM (MB): ~500 MB</li>
+<li>Belső tárhely (MB): ~500MB játék adatokkal </li>
+<li>Android verzió: Android 7.1 (vagy jobb)</li>
+<li>iOS verzió: iOS 10.0 (vagy jobb)</li>
+<li>Kapcsolat: Wi-Fi, adathálózat</li>
+<li>Telepített alkalmazások: Google Play Store, Apple Store</li>
+</ul>
+<p>Javasolt:</p>
+<ul>
+<li>CPU: Quad-Core (vagy jobb)</li>
+<li>Képátló : 5" vagy nagyobb</li>
+<li>Mivel ez egy szöveges alapú RPG lenne, ezért túl nagy hardverigénye nem lesz, később tesztekkel a kész terméket be tudnánk határolni konkrét adatokra. Illetve, mivel körökre osztott, nem feltétlen kell a leggyorsabb válaszidőre sem törekednünk.</li>
+</ul>
+
+<h4 class="amber-text" id=7>7. Teljesítmény</h4>
+<p>A játék fejlesztése során törekszünk arra, hogy minden kötelező, Java, Google Play, PEGI illetve részben IEEE és RUP szabványoknak és konvencióknak megfeleljünk és kövessük.
+<br>A fent említettek többek közt megszorítást és útmutatást adnak pl. a fájl nevek, forráskódok, deklarációk helye és módja, kifejezések, változók, osztály elnevesések és sok más téren.</p>
+
+<h4 class="amber-text" id=8>8. Tervezési korlátozások</h4>
+<h5 class="amber-text" id=81>8.1. Architektúra és felhasznált fejlesztési módszertan </h5>
+<p>Game Engine concept:</p>
+<p>Bármely játék architechtúrában van egy game engine. Ez egy szoftver modul, ami könyvtárakat tartalmaz, melyek támogatják a játék kulcsfontosságú elemeit. A legtöbb játékfejlesztő nem a 0-ról írja ezeket a játékmotorokat, hanem keretrendszereket használnak, ami jócskán leegyszerűsíti a dolgot.</p>
+<p>Egy tipikus játék architektúra legalább két részből áll: game engine és game content, illetve ezek még több részből tevődnek össze.</p>
+<h5 class="amber-text" id=82>8.2. Programozási nyelvek, fejlesztőeszközök: </h5>
+<p>A program készítésénél használt programozási nyelvek: JAVA, SQL, javascript</p>
+<ul>
+<li>Java android sdk</li>
+<li>libGDX / RPG Maker</li>
+<li>Eclipse Android Debugging Toolkit</li>
+</ul>
+
+<h4 class="amber-text" id=9>9. Online dokumentáció és Help rendszer</h4>
+<p>A játék tartartalmazni fog egy bemutató részt (tutorialt), melyet a legelső bejelentkezés után fel is ajánl a program a felhasználónak. Ehhez a funkcióhoz játék közben és a főmenü beállítások menüpontján belül is bármikor hozzáférhet a felhasználó.</p>
+<p>A bemutató léptetéses formában szövegesen képek segítségével magyarázná el a játék mechanikáját. A játékmeneti bemutató szöveges része a játék honlapján is elérhető lesz.</p>
+<p>A játékon belül és a honlapon egyaránt lesz egy beépített segítő rendszer, ahol a felhasználó leírhatja a problémáját, amelyre a fiókjához tartozó e-mail címre választ kap.</p>
+
+<h4 class="amber-text" id=10>10. Felhasznált kész komponensek</h4>
+<ul>
+<li>Java programozási nyelv alapvető névterei</li>
+<li>Android SDK</li>
+<li>iOS SDK</li>
+</ul>
+<h4 class="amber-text" id=11>11. Interfészek</h4>
+<h5 class="amber-text" id=111>11.1 Felhasználói interfészek</h5>
+<p>A játék felhasználói felülete egy átlátható középkori fantasy rpg design-t kapott. A felhasználói felület elkészítésénél a minél egyszerűbb kezelhetőségre és átláthatóságra törekszünk, mivel számításba kell venni, hogy a játékosok enyhén ittas állapotban lesznek a történetek előrehaladtával.</p>
+<p class="amber-text">A főmenü látványterve:</p>
+<img class="responsive-img" src="images/srs-4.png" alt="Főmenü" title="Főmenü">
+<p class="amber-text">Játékmenet látványterve:</p>
+<img class="responsive-img" src="images/srs-5.png" alt="Játékmenet" title="Játékmenet">
+<h5 class="amber-text" id=112>11.2 Hardware interfészek</h5>
+<p>Speciálisan kezelendő interfészek nincsenek, maximum WiFi (esetleg később Bluetooth), de azért az operációs rendszer a felelős.</p>
+<h5 class="amber-text" id=113>11.3 Kommunikációs interfészek</h5>
+<p>A program WiFi-n keresztül fog kommunikálni a többi felhasználóval, a játék elsősorban helyi LAN-on belül, bővítés után esetleg online, ezen kívül csak Google API-val kommunikálunk használati statisztikákat, hirdetések kezelése, frissítés elérhetőségének ellenőrzése, stb. érdekekben. Az egyik felhasználó lesz a host, a többi pedig kliensként fog csatlakozni hozzá.</p>
+<p>Későbbiekben a felhasználók közötti kommunikáció Bluetooth-tal működni.</p>
+<h4 class="amber-text" id=12>12. Alkalmazott szabványok</h4>
+<h5 class="amber-text" id=121>12.1. Kötelezően alkalmazandó szabványok</h5>
+<ul>
+<li>A Sun Microsystems által definiált Java nyelvhez kapcsolódó szabványok.</li>
+<li>A Google által definiált Android operációs rendszerhez és Google Playhez kapcsolódó szabványok.</li>
+<li>Az Apple által definiált iOS operációs rendszerhez és Apple Storehoz kapcsolódó szabványok.</li>
+</ul>
+<h5 class="amber-text" id=122>12.2. Választás alapján alkalmazott szabványok</h5>
+<p>Egyéb választott szabványok nincsenek. A felhasználók egymás közötti kommunikáció tartalmára egy belsőleges szabvány lesz létrehozva.</p>
+<h4 class="amber-text" id=13>13. Mellékletek</h5>
+<a href="dict.html" class="waves-effect waves-light btn amber darken-2">Szótár</a>
+<a href="user-doc.html" class="waves-effect waves-light btn amber darken-2">Felhasználói dokumentáció</a>
+</body>
+</html>

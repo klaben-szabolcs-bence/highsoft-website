@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="hu" prefix="og:  https://ogp.me/ns/website#">
+ <head>
+  <meta charset="utf-8">
+  <title>HighSoft Munkanapló</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/jpeg" href="img/highsoftlogov2.2.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <meta property="og:title" content="HighSoft Munkanapló">
+  <meta property="og:type" content="website">
+  <meta property="og:site-name" content="HighSoft">
+  <meta property="og:locale" content="hu-HU">
+  <meta property="og:url" content="https://iit.uni-miskolc.hu/~klaben/HighSoft">
+  <meta property="og:description" content="Heroes of Potions fejlesztőcsapatának munkanaplója #egyetemisták">
+
+  <meta property="og:image" content="img/highsoftlogov2.2.png">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="214">
+  <meta property="og:image:height" content="235">
+  <meta property="og:image:alt" content="Logó">
+  <style>
+    .amber-divider-top {
+      border-top: 2px solid #ffc107;
+    }
+  </style>
+
+ </head>
+<body class="grey darken-4 grey-text text-lighten-1">
+  <header>
+    <!-- Dropdown Content -->
+    <ul id="docsdropdown" style="font-family: 'Montserrat', sans-serif;" class="dropdown-content grey darken-4">
+      <li><span class="grey-text text-darken-2">== F0 ==</span></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/project-prep.html" target="_blank">Projekt előkészítés</a></li>
+      <li class="divider amber"></li>
+      <li><span class="grey-text text-darken-2">== F1 ==</span></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/project-plan.html" target="_blank">Projekt terv</a></li>
+      <li class="divider amber"></li>
+      <li><span class="grey-text text-darken-2">== F2 ==</span></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/vision-doc.html" target="_blank">Vízió dokumentum</a></li>
+      <li class="divider amber"></li>
+      <li><span class="grey-text text-darken-2">== F3 ==</span></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/srs-doc.html" target="_blank">SRS dokumentum</a></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/user-doc.html" target="_blank">Felhasználói dokumentáció</a></li>
+      <li class="divider amber"></li>
+      <li><span class="grey-text text-darken-2">== F4 ==</span></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/analysis-model.html" target="_blank">Analízis modell</a></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/system-plan.html" target="_blank">Rendszertervezés</a></li>
+      <li class="divider amber"></li>
+      <li><span class="grey-text text-darken-2">== F5 ==</span></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/test-plan.html" target="_blank">Tesztelési terv</a></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/skeleton-impl.html" target="_blank">Skeleton implementáció</a></li>
+      <li class="divider amber"></li>
+      <li><a class="waves-effect waves-light amber-text" href="F/dict.html" target="_blank">Szótár</a></li>
+   </ul>
+   <!-- Dropdown Mobile Content -->
+   <ul id="docsdropdownM" style="font-family: 'Montserrat', sans-serif" class="dropdown-content grey darken-4">
+     <li><span class="grey-text text-darken-2">== F0 ==</span></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/project-prep.html" target="_blank">Projekt előkészítés</a></li>
+     <li class="divider amber"></li>
+     <li><span class="grey-text text-darken-2">== F1 ==</span></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/project-plan.html" target="_blank">Projekt terv</a></li>
+     <li class="divider amber"></li>
+     <li><span class="grey-text text-darken-2">== F2 ==</span></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/vision-doc.html" target="_blank">Vízió dokumentum</a></li>
+     <li class="divider amber"></li>
+     <li><span class="grey-text text-darken-2">== F3 ==</span></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/srs-doc.html" target="_blank">SRS dokumentum</a></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/user-doc.html" target="_blank">Felhasználói dokumentáció</a></li>
+     <li class="divider amber"></li>
+     <li><span class="grey-text text-darken-2">== F4 ==</span></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/analysis-model.html" target="_blank">Analízis modell</a></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/system-plan.html" target="_blank">Rendszertervezés</a></li>
+     <li class="divider amber"></li>
+     <li><span class="grey-text text-darken-2">== F5 ==</span></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/test-plan.html" target="_blank">Tesztelési terv</a></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/skeleton-impl.html" target="_blank">Skeleton implementáció</a></li>
+     <li class="divider amber"></li>
+     <li><a class="waves-effect waves-light amber-text" href="F/dict.html" target="_blank">Szótár</a></li>
+   </ul>
+	<nav class="grey darken-4 grey-text" role="navigation">
+		<div style="font-family: 'Montserrat', sans-serif" class="nav-wrapper container">
+			<a id="logo-container" class="left brand-logo" href="index.html"><img src="img/highsoftlogov2.2.png" alt="hslogo" width="60" height="60"> <span id="logo-H">H</span>igh<span id="logo-S">S</span>oft</a>
+       <a href="#" data-target="mobile" class="sidenav-trigger right"><i class="material-icons amber-text">menu</i></a>
+       <ul id="nav-mobile" class="hide-on-med-and-down right ">
+			  <li><a href="about.html" class="waves-effect waves-light amber-text">Rólunk</a></li>
+       	<li class="active"><a href="#" class="amber-text">Munkanapló</a></li>
+		    <li><a href="grades.html" class="waves-effect waves-light amber-text">Értékelés</a></li>
+			  <!-- Dropdown Trigger -->
+		    <li><a class="dropdown-trigger waves-effect waves-light amber-text" href="#!" data-target="docsdropdown">Dokumentumok<i class="material-icons right amber-text">arrow_drop_down</i></a></li>
+      </ul>
+      <ul id="mobile" style="font-family: 'Montserrat', sans-serif" class="sidenav grey darken-4">
+			    <li><a href="about.html" class="waves-effect waves-light amber-text">Rólunk</a></li>
+        	    <li class="active"><a href="#" class="amber-text">Munkanapló</a></li>
+			    <li><a href="grades.html" class="waves-effect waves-light amber-text">Értékelés</a></li>
+				  <!-- Dropdown Trigger -->
+			    <li><a class="dropdown-trigger waves-effect waves-light amber-text" href="#!" data-target="docsdropdownM">Dokumentumok<i class="material-icons right amber-text">arrow_drop_down</i></a></li>
+      </ul>
+			</div>
+		</nav>
+		<div style="font-family: 'Montserrat', sans-serif" class="section no-pad-bot" id="index-banner">
+			<div class="container" style="padding-top: 1vw;">
+				<h1  class="header center yellow-text text-darken-2">Munkanapló</h1>
+			</div>
+		</div>
+  </header>
+  <div style="font-family: 'Montserrat', sans-serif" class="container ">
+  <table class="centered" style="padding: 2em;">
+    <thead>
+      <tr>
+        <th class="amber-text">Időpont</th>
+        <th class="amber-text">Időtartam</th>
+        <th class="amber-text">Tevékenység</th>
+        <th class="amber-text">Résztvevők</th>
+        <th class="amber-text">Konklúzió, megjegyzés</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2020.09.21 17:30</td>
+        <td>1 óra</td>
+        <td>Csoport megalakulása, F0,F1 megbeszélése</td>
+        <td>Mindenki</td>
+        <td>Csapatnév, projekt tematikájának kidolgozása</td>
+      </tr>
+      <tr>
+        <td>2020.09.21 19:00</td>
+        <td>3 óra</td>
+        <td>Weboldal elkészítése</td>
+        <td>Kláben Szabolcs Bence, Dudás Dániel</td>
+        <td>Materialize használata, Váz kész</td>
+      </tr>
+      <tr>
+        <td>2020.09.22 9:00</td>
+        <td>4 óra</td>
+        <td>F0 dokumentum elkészítése</td>
+        <td>Tamás Janka, Dudás Dániel</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.09.22 11:00</td>
+        <td>4 óra</td>
+        <td>F1 dokumentum elkészítése</td>
+        <td>Tamás Janka, Szilágyi Gábor</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.09.22 15:00</td>
+        <td>2 óra</td>
+        <td>Alap dizájn megtervezése, szoftver nevének kitalálása</td>
+        <td>Dudás Dániel, Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.09.22 16:00</td>
+        <td>4 óra</td>
+        <td>Webdesign készítés, F0 dokumentum html-be szerkesztése</td>
+        <td>Dudás Dániel</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.09.22 20:00</td>
+        <td>30 perc</td>
+        <td>F1 összegezése és véglegesítése</td>
+        <td>Mindenki</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.09.23 14:00</td>
+        <td>3 óra</td>
+        <td>Webdesign készítés, F1 dokumentum html-be szerkesztése</td>
+        <td>Kláben Szabolcs Bence</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.09.23 22:00</td>
+        <td>4 óra</td>
+        <td>Az elkészített dokumentumok ellenőrzése és leadása, konzultációs időpont kérése</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr class="amber-divider-top">
+        <td>2020.09.30 10:00</td>
+        <td>1 óra</td>
+        <td>Projekt alapos átbeszélése, brainstorm</td>
+        <td>Mindenki</td>
+        <td>Program funkcióinak megbeszélése</td>
+      </tr>
+      <tr>
+        <td>2020.10.01.</td>
+        <td>2 óra</td>
+        <td>F2 feladat feldolgozása, megértése, egységekre bontása, kiosztása</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.02 14:00</td>
+        <td>30 perc</td>
+        <td>F2 megbeszélése</td>
+        <td>Mindenki</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.06 13:00</td>
+        <td>2 óra</td>
+        <td>F2 részfeladatok elkészítése 3.3, 4.5, 6. és a munkanapló kivitelezése</td>
+        <td>Szilágyi Gábor</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.06 16:00</td>
+        <td>6 óra</td>
+        <td>F2 részfeladatok elkészítése 2.1, 4.1, 4.2, 4.3, 4.4</td>
+        <td>Dudás Dániel</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.06 18:00</td>
+        <td>5 óra</td>
+        <td>F2 részfeladatok elkészítése 1., 2.1</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.07 16:00</td>
+        <td>4 óra</td>
+        <td>F2 részfeladat elkészítése 5.</td>
+        <td>Dudás Dániel</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.07 17:00</td>
+        <td>6 óra</td>
+        <td>F2 dokumentum 2.2, 2.3, 3.1 pontjainak elkészítése</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.08 16:00</td>
+        <td>2 óra</td>
+        <td>F2 részfeladatok elkészítése 7. és 9.</td>
+        <td>Jónis Bálint</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.08 18:00</td>
+        <td>4 óra</td>
+        <td>F2 dokumentum 3.2, 3.4, 4.2 pontjainak elkészítése</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.09 10:00</td>
+        <td>6 óra</td>
+        <td>F2 dokumentum 5. 8. 10. pontjainak elkészítése</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.09 17:00</td>
+        <td>4 óra</td>
+        <td>Többi résztvevő által elkészített pontok ellenőrzése, javítása (3.3, 4.1, 4.3, 4.4, 4.5, 6.)</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.09 22:00</td>
+        <td>2 óra</td>
+        <td>F2 dokumentum html-be szerkesztése</td>
+        <td>Kláben Szabolcs Bence, Dudás Dániel</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.10.</td>
+        <td>30 perc</td>
+        <td>A dokumentum áttekintése, leadása</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.11. 20:00</td>
+        <td>1 óra</td>
+        <td>Munkanapló aktualizálása</td>
+        <td>Tamás Janka, Dudás Dániel</td>
+        <td>-</td>
+      </tr>
+      <tr class="amber-divider-top">
+        <td>2020.10.16. 14:00</td>
+        <td>1 óra</td>
+        <td>F3 feladat megbeszélése, felosztása</td>
+        <td>Mindenki</td>
+        <td>-</td>
+      </tr>
+			<tr>
+				<td>2020.10.19 15:00</td>
+				<td>3 óra</td>
+				<td>F3 2. 4. 9. részek megírása</td>
+				<td>Szilágyi Gábor</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2020.10.20 18:00</td>
+				<td>2 óra</td>
+				<td>F3 részfeladat elkészítése 3 , 11.1</td>
+				<td>Dudás Dániel</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2020.10.20 18:00</td>
+				<td>2 óra</td>
+				<td>F3 részfeladat elkészítése 10, 11-es többi, 12</td>
+				<td>Kláben Szabolcs Bence</td>
+				<td>-</td>
+			</tr>
+			<tr>
+        <td>2020.10.21 16:00</td>
+				<td>4 óra</td>
+				<td>F3 részfeladat elkészítése 3 , 11.1</td>
+				<td>Dudás Dániel</td>
+				<td>-</td>
+			</tr>
+      <tr>
+        <td>2020.10.22 16:00</td>
+        <td>2 óra</td>
+        <td>SRS dokumentum egységeinek összegyűtése, javítása</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+			<tr>
+				<td>2020.10.22 19:00</td>
+				<td>5 óra</td>
+				<td>F3 részfeladat elkészítése 3 , 11.1</td>
+				<td>Dudás Dániel</td>
+				<td>-</td>
+			</tr>
+      <tr>
+        <td>2020.10.23 17:00</td>
+        <td>3 óra</td>
+        <td>Felhasználói dokumentum írása</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.23 20:00</td>
+        <td>30 perc</td>
+        <td>F3 részfeladat elkészítése 5</td>
+        <td>Kláben Szabolcs Bence</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2020.10.26 10:00</td>
+        <td>4 óra</td>
+        <td>Felhasználói dokumentum írása</td>
+        <td>Tamás Janka</td>
+        <td>-</td>
+      </tr>
+			<tr>
+				<td>2020.10.26 20:00</td>
+				<td>1 óra</td>
+				<td>F3 dokumentum egységesítése</td>
+				<td>Dudás Dániel</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2020.10.27 20:00</td>
+				<td>2 óra</td>
+				<td>F3 dokumentum egységesítése</td>
+				<td>Dudás Dániel</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2020.10.27 20:00</td>
+				<td>4 óra</td>
+				<td>Dokumentumok HTML-be szerkesztése, javítás, egységesítés</td>
+				<td>Tamás Janka</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2020.10.27 22:30</td>
+				<td>4 óra</td>
+				<td>HTML dokumentumok feltöltése a weboldalra, címlapok elhelyezése, hibajavítások</td>
+				<td>Kláben Szabolcs Bence</td>
+				<td>-</td>
+      </tr>
+      <tr>
+				<td>2020.10.29 21:00</td>
+				<td>30 perc</td>
+				<td>Kapott kiritikák kijavítása</td>
+				<td>Kláben Szabolcs Bence</td>
+				<td>-</td>
+			</tr>
+    </tbody>
+  </table>
+  </div>
+<script type="text/javascript">
+$(document).ready(function() {
+$(".dropdown-trigger").dropdown({ hover: false });
+$('.sidenav').sidenav();
+});
+</script>
+</body>
+</html>

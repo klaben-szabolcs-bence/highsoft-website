@@ -1,0 +1,19 @@
+#logo-H {
+  color: #bdbdbd;
+}
+#logo-S {
+  color: #ad9536;
+}
+#logo-container {
+  vertical-align: middle;
+  display: flex;
+}
+.dropdown-content li a, .dropdown-content li span {
+  text-align: center;
+}
+
+.dropdown-content li span {
+  font-size: large;
+  font-weight: bold;
+  cursor: default;
+}
